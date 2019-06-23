@@ -1,4 +1,11 @@
 # Sudoku-GUI-Solver
-This is a sudoku solver using the backtracking algorithm. It includes a graphical GUI as well as a text based version.\
+This is a sudoku solver using the backtracking algorithm. It includes a graphical GUI as well as a text based version.
+
+Run GUI.py to play sudoku. 
+
+# Instructions
+To play click a box and hit the number on your keybaord to pencil in a number. To confirm that value press the enter key on that box. To delete a pencil in you can click DEL. Finally to solve the board press the space, sit back and watch the algorithm run.
+
+# Video Tutorial
 
 You can view the video tutorials on how to create this project here: https://www.youtube.com/watch?v=eqUwSA0xI-s&t=871s
