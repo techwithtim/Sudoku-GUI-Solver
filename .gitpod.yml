@@ -1,2 +1,9 @@
+image: gitpod/workspace-full-vnc
+ports:
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: open-preview
 tasks:
   - init: pip3 install -r requirements.txt
+    command: python3 GUI.py
