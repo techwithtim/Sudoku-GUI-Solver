@@ -118,6 +118,7 @@ class Grid:
         return False
 
     def solve_gui(self):
+        self.update_model()
         find = find_empty(self.model)
         if not find:
             return True
