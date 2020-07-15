@@ -88,3 +88,4 @@ def print_board(bo):
             else:
                 print(str(bo[i][j]) + " ", end="")
 
+output?
