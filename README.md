@@ -8,7 +8,7 @@ Click a box and hit the number on your keybaord to pencil in a number. To confir
 
 # Video Tutorial
 
-You can view the video tutorials on how to create this project here: https://www.youtube.com/watch?v=eqUwSA0xI-s&t=871s
+You can view the video tutorials on how to create this project here: https://www.youtube.com/watch?v=eqUwSA0xI-s
 
 # Run in Gitpod
 
