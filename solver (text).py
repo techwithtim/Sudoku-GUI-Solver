@@ -1,4 +1,3 @@
-# solver.py
 def solve(bo):
     """
     Solves a sudoku board using backtracking
