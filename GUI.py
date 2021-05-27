@@ -51,7 +51,7 @@ class Grid:
 
     def draw(self):
         # Draw Grid Lines
-        gap = self.width / 9
+        gap = self.width // 9
         for i in range(self.rows+1):
             if i % 3 == 0 and i != 0:
                 thick = 4
@@ -163,7 +163,7 @@ class Cube:
     def draw(self, win):
         fnt = pygame.font.SysFont("comicsans", 40)
 
-        gap = self.width / 9
+        gap = self.width // 9
         x = self.col * gap
         y = self.row * gap
 
@@ -172,22 +172,22 @@ class Cube:
             win.blit(text, (x+5, y+5))
         elif not(self.value == 0):
             text = fnt.render(str(self.value), 1, (0, 0, 0))
-            win.blit(text, (x + (gap/2 - text.get_width()/2), y + (gap/2 - text.get_height()/2)))
+            win.blit(text, (x + (gap // 2 - text.get_width() // 2), y + (gap // 2 - text.get_height() // 2)))
 
         if self.selected:
-            pygame.draw.rect(win, (255,0,0), (x,y, gap ,gap), 3)
+            pygame.draw.rect(win, (255, 0, 0), (x, y, gap, gap), 3)
 
     def draw_change(self, win, g=True):
         fnt = pygame.font.SysFont("comicsans", 40)
 
-        gap = self.width / 9
+        gap = self.width // 9
         x = self.col * gap
         y = self.row * gap
 
         pygame.draw.rect(win, (255, 255, 255), (x, y, gap, gap), 0)
 
         text = fnt.render(str(self.value), 1, (0, 0, 0))
-        win.blit(text, (x + (gap / 2 - text.get_width() / 2), y + (gap / 2 - text.get_height() / 2)))
+        win.blit(text, (x + (gap // 2 - text.get_width() // 2), y + (gap // 2 - text.get_height() // 2)))
         if g:
             pygame.draw.rect(win, (0, 255, 0), (x, y, gap, gap), 3)
         else:
