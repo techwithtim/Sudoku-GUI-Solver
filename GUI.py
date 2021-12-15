@@ -249,8 +249,10 @@ def format_time(secs):
     sec = secs%60
     minute = secs//60
     hour = minute//60
-
-    mat = " " + str(minute) + ":" + str(sec)
+    if sec < 10:
+        mat = " " + str(minute) + ":0" + str(sec)
+    else:
+        mat = " " + str(minute) + ":" + str(sec)
     return mat
 
 
