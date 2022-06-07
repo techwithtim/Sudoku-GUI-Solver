@@ -1,4 +1,4 @@
-THIS FORK IS CREATED BY ME FOR THE PURPOSE OF AN ERROR CORRECTION PULL REQUEST.
+# THIS FORK IS CREATED BY ME FOR THE PURPOSE OF AN ERROR CORRECTION PULL REQUEST TO THE ORIGINAL REPO.
 
 # Sudoku-GUI-Solver
 This is a sudoku solver using the backtracking algorithm. It includes a graphical GUI as well as a text based version.
